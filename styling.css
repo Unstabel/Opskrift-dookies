@@ -46,9 +46,18 @@ body {
   background-color: rgb(190, 162, 87);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+@media (min-width: 600px) {
+  #individual-ingredients {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 #ingredients {
-  margin-top: -3.4px;
-  margin-bottom: -1px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
   width: 557px;
   background-color: white;
   padding: 0 20px 20px 20px;
